@@ -21,3 +21,10 @@ zeit-now-url.sh/_src
 ```
 
 View files uploaded as view source
+
+```console
+now -e REACT_APP_GREETING=hello
+
+```
+
+Environment variables

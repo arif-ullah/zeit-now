@@ -1,44 +1,44 @@
-```console
-now
-```
-
 Deploy App
 
 ```console
-now -p
+now
 ```
 
 Deploy publicly
 
 ```console
-now --static
+now -p
 ```
 
 Upload as directory of assets
 
 ```console
-zeit-now-url.sh/_src
+now --static
 ```
 
 View files uploaded as view source
+
+```console
+zeit-now-url.sh/_src
+```
+
+Environment variables
 
 ```console
 now -e REACT_APP_GREETING=hello
 
 ```
 
-Environment variables
+Secret Environment variables
 
 ```console
 now secret add greeting Hi
 
 ```
 
-Secret Environment variables
+Custom name to deployment using Alias
 
 ```console
-now alias oldZeitUrl aliasUrl
+now alias oldZeitUrl aliasUrl = aliasUrl.now.sh
 
 ```
-
-Custom name to deployment using Alias

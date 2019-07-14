@@ -14,7 +14,7 @@
     "start": "cross-env REACT_APP_GREETING=hello react-scripts start",
     "now-start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "now -e REACT_APP_GREETING=zeit",
+    "deploy": "now -e REACT_APP_GREETING=@greeting",
     "now-build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

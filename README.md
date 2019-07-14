@@ -35,3 +35,10 @@ now secret add greeting Hi
 ```
 
 Secret Environment variables
+
+```console
+now alias oldZeitUrl aliasUrl
+
+```
+
+Custom name to deployment using Alias

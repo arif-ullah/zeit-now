@@ -28,3 +28,10 @@ now -e REACT_APP_GREETING=hello
 ```
 
 Environment variables
+
+```console
+now secret add greeting Hi
+
+```
+
+Secret Environment variables
